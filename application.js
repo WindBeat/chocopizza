@@ -1,3 +1,3 @@
 $(document).on("click", ".box", function() {
-	$(this).closest('li').toggleClass("check")
+	$(this).closest('div').toggleClass("check")
 });
